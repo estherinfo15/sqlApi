@@ -57,6 +57,7 @@ export const deleteUsersById = async(req,res)=>{
         .input("Id",Id)
         .query(queries.deleteUsers);
         res.sendStatus(204);
+        console.log("Eliminación exitosa");
     } catch (error) {
         console.log(error);
     }    

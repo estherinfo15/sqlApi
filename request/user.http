@@ -17,7 +17,7 @@ Content-Type: application/json
 GET {{api}}/7
 
 ###
-DELETE {{api}}/8
+DELETE {{api}}/14
 
 ###
 GET {{api}}/count
@@ -27,7 +27,7 @@ PUT {{api}}/7
 Content-Type:  application/json
 
 {
-    "Nombre": "Erika",
+    "Nombre": "lisa",
     "correo":"erika@gmail.com",
     "contraseña": "1234fuyf"
 }
