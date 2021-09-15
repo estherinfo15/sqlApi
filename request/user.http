@@ -1,0 +1,33 @@
+@api=http://localhost:4000/users
+
+GET {{api}}
+
+
+###
+POST  {{api}}
+Content-Type: application/json
+
+{
+    "Nombre":"miriam",
+    "correo":"miriam@gmail.com",
+    "contraseña":"jabljas"
+}
+
+###
+GET {{api}}/7
+
+###
+DELETE {{api}}/8
+
+###
+GET {{api}}/count
+
+###
+PUT {{api}}/7
+Content-Type:  application/json
+
+{
+    "Nombre": "Erika",
+    "correo":"erika@gmail.com",
+    "contraseña": "1234fuyf"
+}
